@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b0f14;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 430px;
+  margin: auto;
+  padding: 20px;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+h1,h2 {
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #d8b36a;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #a0a8b2;
+  line-height: 1.5;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #d8b36a;
+  color: #000;
+  font-weight: bold;
+}
+
+.secondary {
+  background: #1b2530;
+  color: white;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #2d3a48;
+  background: #121821;
+  color: white;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 12px;
+  background: #151d27;
+  margin-top: 12px;
+  border: 1px solid #283647;
+}

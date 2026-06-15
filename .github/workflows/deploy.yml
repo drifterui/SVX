@@ -1,0 +1,16 @@
+name: Deploy SVX
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy
+        run: echo "SVX deployment workflow active"
